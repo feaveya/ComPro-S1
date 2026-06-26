@@ -1,0 +1,16 @@
+{
+    "name": "C++ & C Environment",
+    "image": "://microsoft.com",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "postCreateCommand": "apt-get update && apt-get install -y gcc g++ gdb build-essential",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-themes"
+            ]
+        }
+    }
+}
